@@ -19,13 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyLibraryCoreFramework",
-            url: "https://github.com/carmelojcortes/MyLibrary/releases/download/0.0.7/MyLibCore.zip",
-            checksum: "8f0b32cdfd84b684db4c6de3bfe268d72ff80c6f9ed5d2bda2eae098cb85724c"
+            url: "https://github.com/carmelojcortes/MyLibrary/releases/download/0.0.9/MyLibCore.zip",
+            checksum: "be9270b36e83c075f26ff1079a77c8e0273242bba2db9ba912b56969ecf5c0b5"
         ),
         .binaryTarget(
             name: "MyLibraryFramework",
-            url: "https://github.com/carmelojcortes/MyLibrary/releases/download/0.0.7/MyLib.zip",
-            checksum: "9a58451565591a031d99952040448cd709d5a94397b7eb3f5d08763fc34fa231"
+            url: "https://github.com/carmelojcortes/MyLibrary/releases/download/0.0.9/MyLib.zip",
+            checksum: "5a24b9a6e4d569c7a1c2ee54fa3aaf046aceadf92e6fc42263a7b55f218e91cb"
         ),
         .target(
             name: "MyFullLibrary2",
