@@ -19,13 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyLibraryCoreFramework",
-            url: " ",
+            url: "Releasing 0.0.17",
             checksum: " "
         ),
         .binaryTarget(
             name: "MyLibraryFramework",
-            url: "",
-            checksum: ""
+            url: "Releasing 0.0.17",
+            checksum: " "
         ),
         .target(
             name: "MyFullLibrary2",
